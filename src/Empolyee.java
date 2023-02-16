@@ -93,19 +93,18 @@ public class Empolyee {
         }
     }
 
-    public static void uppSalary(Empolyee[] empolye, int dobavka) {
+    public static void uppSalary(Empolyee[] empolye, int addPercentage) {
         for (int i = 0; i < empolye.length; i++) {
             int salary = empolye[i].getSalary();
-            double persont = salary * (dobavka / 100.0);
+            double persont = salary * (addPercentage / 100.0);
             salary += persont;
             empolye[i].setSalary(salary);
         }
 
     }
-    public static int minUser(Empolyee[] empolye, int departament) {
+    public static int minUserDepartment(Empolyee[] empolye, int departament) {
         int min = Integer.MAX_VALUE;
         for (Empolyee empolyee : empolye) {
-            empolyee.getDepartament();
             if (departament == empolyee.getDepartament()) {
                 int salary = empolyee.getSalary();
                 if (salary < min) {
@@ -116,7 +115,7 @@ public class Empolyee {
         return min;
     }
 
-    public static int maxUser(Empolyee[] empolye, int departament) {
+    public static int maxUserDepartment(Empolyee[] empolye, int departament) {
         int max = Integer.MIN_VALUE;
         for (Empolyee empolyee : empolye) {
             empolyee.getDepartament();

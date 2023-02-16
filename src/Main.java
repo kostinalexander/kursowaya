@@ -33,9 +33,9 @@ public class Main {
             System.out.println(e);
         }
         int departament =4;
-        System.out.println("Минимальное значение зарплату сотрудника из отдела, я выбрал отдел 4=  "+ Empolyee.minUser(empolyees, departament));
+        System.out.println("Минимальное значение зарплату сотрудника из отдела, я выбрал отдел 4=  "+ Empolyee.minUserDepartment(empolyees, departament));
         int departamen = 1;
-        System.out.println("Максимальное значние зарплаты сотрудника из отдела 1= "+ Empolyee.maxUser(empolyees,departamen));
+        System.out.println("Максимальное значние зарплаты сотрудника из отдела 1= "+ Empolyee.maxUserDepartment(empolyees,departamen));
 
         int department = 2;
         System.out.println("Сумма зарплат всех сотрудников по отделу 2= "+ Empolyee.summUser(empolyees,department));
