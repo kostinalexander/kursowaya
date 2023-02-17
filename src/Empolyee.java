@@ -1,18 +1,21 @@
-import java.util.concurrent.atomic.AtomicInteger;
+
 
 public class Empolyee {
     public static int length;
     String fio;
     int departament;
     int salary;
-    public static final AtomicInteger counter = new AtomicInteger(1);
-    public int id;
+    int id;
+    public static int count =1;
+
+
 
     public Empolyee(String fio, int departament, int salary) {
         this.fio = fio;
         this.salary = salary;
         this.departament = departament;
-        id = counter.getAndIncrement();
+        id = count++;
+
     }
 
     public String getFio() {
