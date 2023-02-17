@@ -58,7 +58,7 @@ public class Main {
         System.out.println("Зарплаты меньше 26000");
         Empolyee.printEmpolyLessSalary(empolyees,checkSalary);
 
-        int checkingSalary = 29000;
+         int checkingSalary = 29000;
         System.out.println("Зарплаты больше 29000");
         Empolyee.printEmpolyMoreSalary(empolyees, checkingSalary);
     }

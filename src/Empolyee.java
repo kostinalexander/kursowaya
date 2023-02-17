@@ -2,10 +2,10 @@
 
 public class Empolyee {
     public static int length;
-    String fio;
-    int departament;
-    int salary;
-    int id;
+     public String fio;
+    public int departament;
+    public int salary;
+    public  int id;
     public static int count =1;
 
 
