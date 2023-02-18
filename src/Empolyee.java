@@ -1,12 +1,12 @@
 
 
 public class Empolyee {
-    public static int length;
-     public String fio;
-    public int departament;
-    public int salary;
-    public  int id;
-    public static int count =1;
+    private static int length;
+     private String fio;
+    private int departament;
+    private int salary;
+    private   int id;
+    private static int count =1;
 
 
 
